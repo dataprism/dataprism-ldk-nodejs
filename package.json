@@ -1,7 +1,12 @@
 {
-  "name": "dataprism-ldk-nodejs",
+  "name": "@dataprism/ldk",
   "version": "1.0.0",
   "description": "Dataprism Logic Development Kit",
+  "keywords": ["dataprism"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dataprism/dataprism-ldk-nodejs.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
