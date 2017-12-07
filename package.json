@@ -1,0 +1,15 @@
+{
+  "name": "dataprism-ldk-nodejs",
+  "version": "1.0.0",
+  "description": "Dataprism Logic Development Kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daan Gerits <daan.gerits@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "kafka-streams": "^3.0.0",
+    "log4js": "^2.3.12"
+  }
+}
