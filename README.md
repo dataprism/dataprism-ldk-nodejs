@@ -5,7 +5,7 @@ The dataprism logic development kit is used when developing and running logics i
 
 ## Usage
 ```
-const Platform = require('dataprism-ldk-nodejs');
+const Platform = require('@dataprism/ldk');
 const platform = new Platform();
 
 const stream = platform.getStream("my_kafka_topic");
