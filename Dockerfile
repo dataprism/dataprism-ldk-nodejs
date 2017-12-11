@@ -6,4 +6,6 @@ WORKDIR /usr/src/app
 
 ADD run.sh .
 
-CMD [ "./run.sh" ]
+RUN chmod a+x /usr/src/app/run.sh
+
+CMD [ "/usr/src/app/run.sh" ]
