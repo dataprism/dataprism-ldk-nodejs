@@ -5,4 +5,4 @@ if [ ! -z $DP_LIBRARIES ]; then {
     npm i ${DP_LIBRARIES}
 }
 
-./index.js
+node ./index.js
