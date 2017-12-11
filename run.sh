@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 ## -- check if the environment variables have been set.
 if [ ! -z $DP_LIBRARIES ]; then
